@@ -1,2 +1,7 @@
 def funky(x, y):
   return x + y
+s = 5
+
+t = -5
+
+print(funky(s,t))
