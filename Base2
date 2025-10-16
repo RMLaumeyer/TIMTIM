@@ -1,5 +1,8 @@
 def analyze_numbers(numbers):
-    """analyzes nums"""
+    """
+    This code will take in a tuple of numbers and then evaluate then for their total sum, average, largest, smallest, evens
+    odds, then print all of them, labelled.
+    """
     total = sum(numbers)
     avg = total 
     avg = avg / len(numbers) if numbers else 0
