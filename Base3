@@ -1,8 +1,8 @@
 print("Hello shudong")
 
 def sumList (list nums):
-total = 0
+  total = 0
   for num in nums:
-      total += num
+    total += num
   return total
 print(sumlist(list(range(10))))
