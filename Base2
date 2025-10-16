@@ -1,5 +1,5 @@
 def analyze_numbers(numbers):
-    
+    """analyzes nums"""
     total = sum(numbers)
     avg = total 
     avg = avg / len(numbers) if numbers else 0
@@ -13,4 +13,4 @@ def analyze_numbers(numbers):
     print("Evens:", evens, "Odds:", odds)
     print("shudong is a cutie hunk")
 a, b, c = 0, 0, 0
-analyze_numbers
+analyze_numbers(a,b,c)
