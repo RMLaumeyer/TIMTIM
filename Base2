@@ -16,4 +16,4 @@ def analyze_numbers(numbers):
     print("Evens:", evens, "Odds:", odds)
     print("shudong is a cutie hunk")
 a, b, c = 0, 0, 0
-analyze_numbers(a,b,c)
+analyze_numbers([a,b,c])
